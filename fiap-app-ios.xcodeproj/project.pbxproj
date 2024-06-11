@@ -11,6 +11,11 @@
 		5394EFC42C18FCBE005A2D05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5394EFC32C18FCBE005A2D05 /* ContentView.swift */; };
 		5394EFC62C18FCBF005A2D05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5394EFC52C18FCBF005A2D05 /* Assets.xcassets */; };
 		5394EFCA2C18FCBF005A2D05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5394EFC92C18FCBF005A2D05 /* Preview Assets.xcassets */; };
+		5394EFD22C18FD4E005A2D05 /* Anuncio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5394EFD12C18FD4E005A2D05 /* Anuncio.swift */; };
+		5394EFD52C18FEA1005A2D05 /* AnuncioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5394EFD42C18FEA1005A2D05 /* AnuncioService.swift */; };
+		5394EFD72C18FF4F005A2D05 /* DadosAutenticacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5394EFD62C18FF4F005A2D05 /* DadosAutenticacao.swift */; };
+		5394EFD92C190139005A2D05 /* DadosToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5394EFD82C190139005A2D05 /* DadosToken.swift */; };
+		5394EFDB2C1901E8005A2D05 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5394EFDA2C1901E8005A2D05 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		5394EFC52C18FCBF005A2D05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5394EFC72C18FCBF005A2D05 /* fiap_app_ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = fiap_app_ios.entitlements; sourceTree = "<group>"; };
 		5394EFC92C18FCBF005A2D05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5394EFD12C18FD4E005A2D05 /* Anuncio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anuncio.swift; sourceTree = "<group>"; };
+		5394EFD42C18FEA1005A2D05 /* AnuncioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnuncioService.swift; sourceTree = "<group>"; };
+		5394EFD62C18FF4F005A2D05 /* DadosAutenticacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadosAutenticacao.swift; sourceTree = "<group>"; };
+		5394EFD82C190139005A2D05 /* DadosToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadosToken.swift; sourceTree = "<group>"; };
+		5394EFDA2C1901E8005A2D05 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +62,11 @@
 		5394EFC02C18FCBE005A2D05 /* fiap-app-ios */ = {
 			isa = PBXGroup;
 			children = (
+				5394EFD32C18FE8D005A2D05 /* Service */,
+				5394EFD02C18FD3F005A2D05 /* Model */,
 				5394EFC12C18FCBE005A2D05 /* fiap_app_iosApp.swift */,
 				5394EFC32C18FCBE005A2D05 /* ContentView.swift */,
+				5394EFDA2C1901E8005A2D05 /* LoginView.swift */,
 				5394EFC52C18FCBF005A2D05 /* Assets.xcassets */,
 				5394EFC72C18FCBF005A2D05 /* fiap_app_ios.entitlements */,
 				5394EFC82C18FCBF005A2D05 /* Preview Content */,
@@ -67,6 +80,24 @@
 				5394EFC92C18FCBF005A2D05 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5394EFD02C18FD3F005A2D05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5394EFD12C18FD4E005A2D05 /* Anuncio.swift */,
+				5394EFD62C18FF4F005A2D05 /* DadosAutenticacao.swift */,
+				5394EFD82C190139005A2D05 /* DadosToken.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5394EFD32C18FE8D005A2D05 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5394EFD42C18FEA1005A2D05 /* AnuncioService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +171,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5394EFC42C18FCBE005A2D05 /* ContentView.swift in Sources */,
+				5394EFDB2C1901E8005A2D05 /* LoginView.swift in Sources */,
+				5394EFD52C18FEA1005A2D05 /* AnuncioService.swift in Sources */,
+				5394EFD72C18FF4F005A2D05 /* DadosAutenticacao.swift in Sources */,
+				5394EFD22C18FD4E005A2D05 /* Anuncio.swift in Sources */,
 				5394EFC22C18FCBE005A2D05 /* fiap_app_iosApp.swift in Sources */,
+				5394EFD92C190139005A2D05 /* DadosToken.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +320,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -322,7 +358,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
